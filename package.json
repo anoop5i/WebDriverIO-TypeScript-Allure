@@ -1,7 +1,7 @@
 {
-  "name": "webdriver_typescript",
+  "name": "WebDriverIO-TypeScript-Allure",
   "version": "1.0.0",
-  "description": "An example project using WebdriverIO with TypeScript",
+  "description": "An example project using WebdriverIO with TypeScript and allure reporter",
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/typescript/lib/tsc.js && node ./node_modules/webdriverio/bin/wdio && node ./node_modules/rimraf/bin.js src",
@@ -10,19 +10,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WillLuce/WebdriverIO_Typescript.git"
+    "url": "git+https://github.com/anoopsivarajan/WebDriverIO-TypeScript-Allure.git"
   },
   "keywords": [
     "Selenium",
     "Mocha",
-    "WebdriverIO"
+    "WebdriverIO",
+    "Allure"
   ],
   "author": "Anoop Sivarajan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WillLuce/WebdriverIO_Typescript/issues"
+    "url": "https://github.com/anoopsivarajan/WebDriverIO-TypeScript-Allure/issues"
   },
-  "homepage": "https://github.com/WillLuce/WebdriverIO_Typescript#readme",
+  "homepage": "https://github.com/anoopsivarajan/WebDriverIO-TypeScript-Allure#readme",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.4",
